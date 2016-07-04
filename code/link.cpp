@@ -675,7 +675,7 @@ extern "C" GAME_UPDATE_AND_RENDER(GameUpdateAndRender)
         
         GameState->TileSideInPixels = 60.0f;
         
-        GameState->CurrentLevelId = 10;
+        GameState->CurrentLevelId = 1;
         GameState->MaxLevelId = 11;
         LoadLevel(GameState, Platform->ReadFile, Platform->FreeFile, GameState->CurrentLevelId);
     }
